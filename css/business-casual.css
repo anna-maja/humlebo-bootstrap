@@ -1,6 +1,30 @@
+/* egen css */
+.slogan {
+  text-align: right;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: rgba(182, 245, 11, 0.8);
+}
+.welcomeText {
+  position: relative;
+  padding: 3rem;
+  margin: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+/* .info {
+  
+} */
+
+#logo {
+  margin-bottom: -3rem;
+  text-align: left;
+  margin-left: 0;
+  width: 100px;
+}
+
 body {
-  font-family: 'Lora';
-  background: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/bg.jpg");
+  font-family: 'Roboto Condensed', sans-serif;
+  background: linear-gradient(rgba(248, 208, 174, 0.733), #f7f1ddb0), url("../img/bg.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -12,7 +36,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Raleway';
+  font-family: 'Crimson Text', serif;
+  color: #045c4d;
 }
 
 p {
@@ -24,11 +49,12 @@ p {
 }
 
 .site-heading {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   text-transform: uppercase;
   line-height: 1;
-  font-family: 'Raleway';
+  font-family: 'Crimson Text', serif;
+  color: #045c4d;
 }
 
 .site-heading .site-heading-upper {
@@ -43,10 +69,13 @@ p {
   line-height: 4rem;
 }
 
+
+
 .page-section {
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
+
 
 .section-heading {
   text-transform: uppercase;
@@ -69,12 +98,12 @@ p {
 }
 
 #mainNav {
-  background-color: rgba(47, 23, 15, 0.9);
-  font-family: 'Raleway';
+  background-color: rgba(12, 245, 225, 0.808);
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 #mainNav .navbar-brand {
-  color: #e6a756;
+  color: #045c4d;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -83,18 +112,18 @@ p {
 }
 
 #mainNav .navbar-nav .nav-item.active .nav-link {
-  color: #e6a756;
+  color: #045c4d;
 }
 
 @media (min-width: 992px) {
   #mainNav .navbar-nav .nav-item .nav-link {
-    font-size: 0.9rem;
+    font-size: 1.3rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
     color: rgba(255, 255, 255, 0.4);
   }
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
-    color: #e6a756;
+    color: #045c4d;
   }
 }
 
@@ -137,14 +166,14 @@ p {
 }
 
 .cta {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  padding-top: 2rem;
+  padding-bottom: 2.5rem;
+  background-color: rgba(182, 245, 11, 0.9);
 }
 
 .cta .cta-inner {
   position: relative;
-  padding: 3rem;
+  padding: 0.8rem;
   margin: 0.5rem;
   background-color: rgba(255, 255, 255, 0.85);
 }
@@ -204,7 +233,7 @@ p {
 
 .list-hours .list-hours-item.today {
   font-weight: bold;
-  color: #e6a756;
+  color: #045c4d;
 }
 
 @media (min-width: 992px) {
@@ -219,15 +248,16 @@ p {
 }
 
 .footer {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: rgba(12, 245, 225, 0.808);
+  color: rgb(245, 7, 7);
 }
 
 .text-primary {
-  color: #e6a756 !important;
+  color: #045c4d!important;
 }
 
 .bg-primary {
-  background-color: #e6a756 !important;
+  background-color: #045c4d !important;
 }
 
 .btn {
