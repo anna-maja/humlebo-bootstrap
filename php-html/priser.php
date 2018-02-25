@@ -13,37 +13,46 @@ include 'navigation.php' ;
           <div class="col-xl-9 mx-auto">
             <div class="cta-inner text-center rounded">
               <h2 class="section-heading mb-5">
-                <span class="section-heading-upper">Come On In</span>
-                <span class="section-heading-lower">We're Open</span>
+                <span class="section-heading-lower">Prislista</span><br>
+                <span class="section-heading-upper"> <br>
+                </span>
               </h2>
               <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
-                <li class="list-unstyled-item list-hours-item d-flex">
-                  Sunday
-                  <span class="ml-auto">Closed</span>
+              <li class="list-unstyled-item list-hours-item d-flex">
+              Hovvård och verkning <br>
+               (Pris per verkning. Milersättning om 35 kronor per mil tillkommer.)
+              <li class="list-unstyled-item list-hours-item d-flex">
+                  Ponny/häst
+              <span class="ml-auto">425 kr/verkning</span>
                 </li>
                 <li class="list-unstyled-item list-hours-item d-flex">
-                  Monday
-                  <span class="ml-auto">7:00 AM to 8:00 PM</span>
+                Storhäst/kallblod
+                  <span class="ml-auto">625 kr/verkning</span>
                 </li>
                 <li class="list-unstyled-item list-hours-item d-flex">
-                  Tuesday
-                  <span class="ml-auto">7:00 AM to 8:00 PM</span>
+                Hästskolan <br>
+                (betalning månadsvis via faktura)
+                 <span class="ml-auto">848 kr/mån</span>
                 </li>
                 <li class="list-unstyled-item list-hours-item d-flex">
-                  Wednesday
-                  <span class="ml-auto">7:00 AM to 8:00 PM</span>
+                Ponnyridning 
+                  <span class="ml-auto">300 kr/gång</span>
                 </li>
                 <li class="list-unstyled-item list-hours-item d-flex">
-                  Thursday
-                  <span class="ml-auto">7:00 AM to 8:00 PM</span>
+                 Turkörning (inkl fika) 
+                </li>
+                <span class="ml-auto"></span>
+                <li class="list-unstyled-item list-hours-item d-flex">
+                  Lilla rundan (1-2 tim, ca 20 min körning)
+                  <span class="ml-auto">300 kr</span>
                 </li>
                 <li class="list-unstyled-item list-hours-item d-flex">
-                  Friday
-                  <span class="ml-auto">7:00 AM to 8:00 PM</span>
+                  Mellanrundan (2-3 tim, ca 45 min körning)
+                  <span class="ml-auto">400 kr</span>
                 </li>
                 <li class="list-unstyled-item list-hours-item d-flex">
-                  Saturday
-                  <span class="ml-auto">9:00 AM to 5:00 PM</span>
+                  Stora rundan (3-4 tim, ca 90 min körning)
+                  <span class="ml-auto">500 kr</span>
                 </li>
               </ul>
               <p class="address mb-5">
@@ -87,22 +96,7 @@ include 'navigation.php' ;
         </div>
       </div>
     </section>
-
-    <footer class="footer text-faded text-center py-5">
-      <div class="container">
-        <p class="m-0 small">Copyright &copy; Your Website 2018</p>
-      </div>
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  </body>
-
-  <!-- Script to highlight the active date in the hours list -->
-  <script>
-    $('.list-hours li').eq(new Date().getDay()).addClass('today');
-  </script>
-
-</html>
+    
+    <?php 
+    include 'footer.php';
+    ?>

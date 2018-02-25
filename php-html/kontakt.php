@@ -19,6 +19,7 @@ include 'navigation.php';
             <h2 class="section-heading mb-4">
             <span class="section-heading-lower">Kontaktuppgifter</span>
             </h2>
+            <img src="../img/logo.jpg" alt="" class="logo">
                 <p class="mb-0">Besöksadress</p>
                 <p class="mb-0">Telefonnummer</p>
                 <p class="mb-0">Kartlänk GoogleMaps</p>
@@ -38,5 +39,3 @@ include 'navigation.php';
 <?php
 include 'footer.php'; 
 ?>
-
-<img src="img/logo.png" alt="">

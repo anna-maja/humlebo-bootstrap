@@ -15,6 +15,7 @@ ini_set("display_errors", 1);
     <meta name="author" content="">
 
     <title>Stall Humlebo</title>
+    <link rel="icon" type="image/jpg" href="../img/logo.jpg">
 
     <!-- Bootstrap core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">

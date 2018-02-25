@@ -24,7 +24,7 @@ ini_set("display_errors", 1);
             <span class="site-heading-upper text-primary mb-3">Välkommen till</span>
             <span class="site-heading-lower">Stall Humlebo</span>
             </h1>
-            <img src="../img/logo.jpg" alt="" width="100px">
+            <img src="../img/logo.jpg" alt="" class="logo">
           <h1> <span class="site-heading site-heading-upper text-primary mb-3">Omsorg med hästkrafter</span></h1>
           </div>
         </div>
@@ -39,7 +39,7 @@ ini_set("display_errors", 1);
     <section class="page-section clearfix">
       <div class="container">
         <div class="intro">
-          <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="../img/intro.jpg" alt="">
+          <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="../img/iorbarnen.png" alt="">
           <div class="intro-text left-0 text-center bg-faded p-5 rounded">
             <h2 class="section-heading mb-4">
               <span class="section-heading-upper">Senaste från Humlebo</span>

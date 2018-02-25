@@ -19,9 +19,16 @@ ini_set("display_errors", 1);
               <span class="section-heading-lower">Vår verksamhet<br>
               </span>
             </h2>
+            <img src="../img/logo.jpg" alt="" class="logo">
             <h3>Följ länkarna nedan för att läsa mer om vad Stall Humlebo gör!</h3>
             <br>
-            länk&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;länk&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;länk&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;länk
+            <a href="index.php" class="btn btn-outline-alert buttonActivities">Equine Assisted Activities</a>
+            <a href="kontakt.php" class="btn btn-outline-alert buttonActivities">Hästskola</a>
+            <a href="#" class="btn btn-outline-alert buttonActivities">Ponnyridning</a>
+            <a href="#" class="btn btn-outline-alert buttonActivities">Turridning</a>
+            <a href="#" class="btn btn-outline-alert buttonActivities">Hovvård</a>
+            <a href="#" class="btn btn-outline-alert buttonActivities">Ett besök hos oss</a> <br>
+            <a href="#" class="btn btn-outline-alert buttonActivities">Våra hästar</a>
             </div>
          </div>
        </div>
@@ -59,3 +66,7 @@ ini_set("display_errors", 1);
         </div>
       </div>
     </section>
+    
+    <?php 
+    include 'footer.php';
+    ?>

@@ -28,6 +28,9 @@ ini_set("display_errors", 1);
               <a class="nav-link text-uppercase text-expanded" href="products.php">Övriga tjänster</a>
             </li>
             <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="priser.php">Priser</a>
+            </li>
+            <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="kontakt.php">Kontakt</a>
             </li>
           </ul>
